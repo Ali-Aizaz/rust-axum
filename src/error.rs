@@ -2,8 +2,10 @@ use axum::{http::StatusCode, response::IntoResponse};
 
 pub type Result<T> = core::result::Result<T, Error>;
 use axum::response::Response;
+use serde::Serialize;
 
-#[derive(Debug, Clone, strum_macros::AsRefStr)]
+#[derive(Debug, Clone, Serialize, strum_macros::AsRefStr)]
+#[serde(tag = "type", content = "data")]
 pub enum Error {
     Loginfail,
     TicketDeleteFailIdNotFound { id: u64 },
