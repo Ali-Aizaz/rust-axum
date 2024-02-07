@@ -30,6 +30,5 @@ cargo run
 - IMPORTANT - for `AUTH_TOKEN` cookie, make sure to call `cookie.set_path("/");`.
 - Use the `--poll` flag for cargo watch (latest 8.4.0) on my Fedora Linux environment.
 - Make sure to use `axum` version `0.6.16` or above, as version `0.6.15` had a bug in the static routing.
-- Here is a [Per Chapter Fork](https://github.com/FloWi/rust-axum-course) by [@FloWi](https://github.com/FloWi). Big thanks!
 
 This repository can be found on [GitHub](https://github.com/Ali-Aizaz/rust-axum).
