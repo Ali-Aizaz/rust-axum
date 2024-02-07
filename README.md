@@ -4,9 +4,6 @@ The code is available under either the MIT or Apache license and is free to use.
 
 Important: Make sure to refresh this repo. I implemented a fix on `cookie.add` for `AUTH_TOKEN` (see details below in the notes section).
 
-
-Here is a [Per Chapter Fork](https://github.com/FloWi/rust-axum-course) by [@FloWi](https://github.com/FloWi). Big thanks!
-
 ## Dev (REPL)
 
 ```sh
